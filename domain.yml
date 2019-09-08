@@ -3,6 +3,7 @@ intents:
   - goodbye
   - affirm
   - deny
+  - fix
   - mood_great
   - mood_unhappy
   - fix_printer
@@ -13,6 +14,8 @@ actions:
 - utter_did_that_help
 - utter_happy
 - utter_goodbye
+- utter_fix
+- utter_fix_printer
 
 templates:
   utter_greet:
@@ -29,7 +32,14 @@ templates:
   - text: "Great carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Bye, Felicia"
+    image: "https://i.imgur.com/7x401HR.gif"
 
   utter_fix:
-  -text: "Cool story, bro!"
+  - text: "Welcome to ChattyMcChatface, what's broke?"
+
+  utter_fix_printer:
+  - text: "Wow! Broke printer? Get in line!"
+
+  utter_printer_model:
+

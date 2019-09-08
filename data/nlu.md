@@ -50,6 +50,11 @@
 - so sad
 
 ## intent:fix
+- Shit broke
+- Something is broken
+- I need help
+
+## intent:fix_printer
 - My printer isn't working
 - My printer won't work
 - I can't print

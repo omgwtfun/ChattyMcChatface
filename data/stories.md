@@ -23,10 +23,8 @@
   - utter_goodbye
   
  ## fix printer
- * greet
-   -utter_greet
- * fix
-   -utter_fix
+ * fix_printer
+    - utter_fix_printer
 
 ## say goodbye
 * goodbye
