@@ -25,6 +25,8 @@
  ## fix printer
  * fix_printer
     - utter_fix_printer
+ * printer_model
+    - utter_printer_model
 
 ## say goodbye
 * goodbye

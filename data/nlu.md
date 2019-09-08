@@ -62,3 +62,9 @@
 - My printer is broken
 - I'm unable to print
 - My printer stopped working
+
+## intent:printer_model
+- Lexmark
+- Sharp
+- I don't know
+- A big one

@@ -7,6 +7,7 @@ intents:
   - mood_great
   - mood_unhappy
   - fix_printer
+  - printer_model
 
 actions:
 - utter_greet
@@ -16,6 +17,7 @@ actions:
 - utter_goodbye
 - utter_fix
 - utter_fix_printer
+- utter_printer_model
 
 templates:
   utter_greet:
@@ -39,7 +41,13 @@ templates:
   - text: "Welcome to ChattyMcChatface, what's broke?"
 
   utter_fix_printer:
-  - text: "Wow! Broke printer? Get in line!"
+  - text: "Dope, what model of printer do you have?"
 
   utter_printer_model:
+  - text: "What I need to do printer models is in Rasa Beta ¯\\_(ツ)_/¯"
 
+  utter_phone:
+    - text: "So your phone isn't working?"
+
+  utter_phone_troubleshoot:
+    -
